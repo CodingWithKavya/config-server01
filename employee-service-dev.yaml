@@ -3,7 +3,7 @@ server:
 spring:
     datasource:
         password: root
-        url: jdbc:mysql://localhost:3306/employeesdatabase?useSSL=false
+        url: jdbc:mysql://localhost:3306/studentsdatabase?useSSL=false
         username: root
     jpa:
         hibernate:
@@ -14,9 +14,7 @@ spring:
                 
 # Test Details for Development Environment
 test:
-  details: Employee service details for development environment [From GitHub]
-  engineer: John Doe
-  department: Development Testing
-  engineerContact:
-    email: testengineer.dev@example.com
-    phone: 123-456-7890                
+  details: student service details for development environment [From GitHub]
+  name: John Doe
+  department: Engineering Department
+  hod: Enda Fallen
